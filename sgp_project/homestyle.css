@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    user-select: none;
+}
+.background{
+    color: aliceblue;
+    background-color: rgb(108, 103, 103);
+}
+body {
+    background-color: #F2F2F2;
+    font-family: Arial, sans-serif;
+  }
+  
+nav {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 0 10px;
+}
+  
+section {
+    background-color: #D9E2EC; /* change background color */
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgb(103, 170, 208);
+    padding: 20px;
+    margin-top: 40px;
+}
+  
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #333;
+}
+  
+form {
+    margin-bottom: 40px;
+}
+  
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+  
+input[type="text"],
+textarea {
+    width: 80%;
+    padding: 12px 20px;
+    margin-bottom: 40px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    border: 1px solid rgb(0, 0, 0);
+}
+  
+textarea {
+    resize: vertical;
+    min-height: 100px;
+}
+  
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 8px;
+    float: right;
+}
+  
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+  
